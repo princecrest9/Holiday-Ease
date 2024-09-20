@@ -1,0 +1,48 @@
+name: holiday_ease
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.4.4 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  shared_preferences: ^2.3.0
+  connectivity_plus: ^6.0.4
+  carousel_slider_plus: ^7.0.0
+  smooth_page_indicator: ^1.2.0+3
+  calendar_date_picker2: ^1.1.5
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Kaushan Script
+      fonts: 
+        - asset: assets/fonts/KaushanScriptRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterMediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/InterItalic.ttf
+          weight: 400
+        - asset: assets/fonts/InterBoldItalic.ttf
+          weight: 700
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
